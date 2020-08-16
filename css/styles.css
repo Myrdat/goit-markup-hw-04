@@ -229,10 +229,14 @@ h2, h3, p, img {
     margin-top: 10px;
     line-height: 1.714;
    }
-.feature > img {
+.feature > .photo {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-content: center;
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
+    padding: 25 100;
 }
 
  /* about-us */
@@ -305,18 +309,26 @@ margin-right: 30px;
      text-align: center;
      }
 .team .social-link{
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    background: #2196F3;
+    
     border-radius: 50%;
 }
 
 .social-link > a {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+.team .social-link:hover{
+    background-color: #2196F3;
+}
+.social-link .social-button:hover{
+    fill: #ffffff;
+    
 }
 
 .list.social {
