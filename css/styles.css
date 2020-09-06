@@ -56,6 +56,7 @@ h2, h3, p, img {
     width: 1200px;
     padding: 25px 15px; 
     margin: 0 auto;
+    
 }   
 
 
@@ -109,6 +110,11 @@ h2, h3, p, img {
     line-height:1.142;
    }
 
+.auth-nav-svg {
+    width: 16;
+    height: 12;
+}   
+
 /* site nav */  
 .title-web {
     padding-top: 24px;
@@ -135,8 +141,11 @@ h2, h3, p, img {
    /*main*/
 
 .hero {
-    background:rgba(47, 48, 58, 0.8);
-    
+    /* background:rgba(47, 48, 58, 0.8); */
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url('../images/Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: ;
    }
 
 .hero .container {
