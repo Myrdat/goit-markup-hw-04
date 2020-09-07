@@ -175,9 +175,6 @@ h2, h3, p, img {
 }
 
 .hero-title {
-/*    
-    left: 732px;
-    top: 440px; */
     margin-top: 0;
     margin-bottom: 0;
     color: var(--color-text-white);
@@ -186,12 +183,7 @@ h2, h3, p, img {
     line-height:1.363;
     text-align: center;
     text-transform: uppercase;
-    /* width: 1600px;
-    height: 600px; */
-    /* left: 0px; */
-    /* top: 80px; */
-    /* background: rgba(47, 48, 58, 0.8); */
-    }
+}
     
  .title-main {
     color: var(--title-text-color);
