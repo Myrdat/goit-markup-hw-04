@@ -75,16 +75,17 @@ h2, h3, p, img {
 .site-nav .link.current,
 .site-nav-portfolio .link.current{
     color: #2196F3;
-    } 
+} 
 
-.social-link :hover,
+/* .social-link :hover,
 .social-link :focus {
     background-color: #2196F3;
-}
+} */
 
 .team-icon-svg :hover,
 .team-icon-svg :focus {
     fill: #fff;
+    background-color: #2196F3;
 }
 
 .list-item:hover,
